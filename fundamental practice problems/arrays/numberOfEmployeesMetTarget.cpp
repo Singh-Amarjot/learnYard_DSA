@@ -1,13 +1,23 @@
-class Solution {
-public:
-    int numberOfEmployeesWhoMetTarget(vector<int>& hours, int target) {
-       int counter =0;
-       for(int i =0;i<hours.size();i++){
-           if(hours[i]>=target){
-               counter++;
-           }
+// class Solution {
+// public:
+//     int numIdenticalPairs(vector<int>& nums) {
+        
+//         int counter=0;
 
-       }
-       return counter;
-    }
-};
+//         for(int start=0;start<nums.size()-1;start++){ //0
+//             for(int next=start+1;next<nums.size();next++){
+
+//                 if(nums[start]==nums[next]){
+//                     counter++;
+//                 }
+
+//             }
+            
+//         }
+        
+       
+      
+       
+//        return counter;
+//        }
+// };
